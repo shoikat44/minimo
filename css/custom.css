@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+    padding: 30px 0;
+}
+.container{
+    width: 1400px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo a{}
+.logo a img{}
+.nev{width: 80%;float: left;}
+.nev ul{display: flex;justify-content: flex-end;}
+.nev ul li{
+    list-style: none;
+}
+.nev ul li a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+    padding-left: 50px;
+    padding-top: 1px;
+    transition-duration: 0.4s;
+}
+.nev ul li a:hover{
+    opacity: 0.5;
+}
+
+
+
+.banner-section{}
+.banner-section img{
+    width: 100%;
+    transition-duration: 0.4s;
+}
+.banner-section img:hover{
+    opacity: 0.4;
+}
+
+
+
+.blog-section{}
+.post-without-img{
+    padding: 80px;
+}
+strong{
+    color: #88888882;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+}
+h1{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: #111;
+    margin: 12px 0;
+}
+p{
+    color: #919191;
+    margin-bottom: 28px;
+}
+
+.post-without-img a{
+    color: #88888882;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+
+
+.post-pad{
+    padding: 0px 55px;
+}
+.post-with-img{
+    width: 50%;
+    float: left;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.post-with-img img{
+    width: 100%;
+    transition-duration: 0.4s;
+}
+.post-with-img img:hover{
+    opacity: 0.5;
+}
+
+
+article{width: 33.33%;float: left; padding: 30px;box-sizing: border-box;}
+article img{width: 100%;transition: 0.4s;}
+article img:hover{
+    opacity: 0.5;
+}
+
+
+footer{
+    background: #e3e3e3;
+    padding: 50px 0;
+}
+.footer-menu{
+    width: 50%;
+    float: left;
+}
+.footer-menu ul{}
+.footer-menu ul li{
+    float: left;
+    list-style: none;
+}
+.footer-menu ul li a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding-right: 20px;
+    transition-duration: 0.4s;
+}
+.footer-menu ul li a:hover{
+    opacity: 0.5;
+}
+
+.socil-link{
+    width: 50%;
+    float: left;
+}
+.socil-link ul{
+    text-align: right;
+}
+.socil-link ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+}
+.socil-link ul li a{
+    color: #333;
+    border: 1px solid;
+    display: inline-block;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    transition-duration: 0.4s;
+}
+.socil-link ul li a:hover{
+    background: #333;
+    color: #efefef;
+}
