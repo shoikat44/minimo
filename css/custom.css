@@ -163,3 +163,11 @@ footer{
     background: #333;
     color: #efefef;
 }
+
+.bg{
+	height: 500px;
+	background: url(../imeges/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
