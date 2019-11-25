@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
 
 body{
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 header{
     padding: 30px 0;
 }
 .container{
-    width: 1400px;
+    width: 1150px;
     margin: auto;
     overflow: hidden;
 }
@@ -67,7 +67,7 @@ strong{
 h1{
     text-transform: capitalize;
     font-size: 25px;
-    color: #111;
+    color: #111111c9;
     margin: 12px 0;
 }
 p{
@@ -165,9 +165,9 @@ footer{
 }
 
 .bg{
-	height: 500px;
-	background: url(../imeges/banner.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+    height: 500px;
+    background: url(../imeges/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
